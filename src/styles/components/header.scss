@@ -1,0 +1,19 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    padding: 25px 0;
+    z-index: 2;
+}
+
+.header a {
+    color: var(--color-white);
+    font-weight: 600;
+    text-transform: uppercase;
+
+    &:hover {
+        text-decoration: none;
+        color: var(--color-white);
+    }
+}

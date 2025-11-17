@@ -5,9 +5,13 @@
 
 a {
     text-decoration: none;
+    font-family: var(--font-secondary);
 
     &:hover {
         color: var(--color-primary);
         text-decoration: underline;
     }
+}
+
+.button {
 }

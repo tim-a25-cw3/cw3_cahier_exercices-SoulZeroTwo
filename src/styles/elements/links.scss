@@ -14,4 +14,12 @@ a {
 }
 
 .button {
+    color: var(--color-black);
+    background-color: var(--color-primary);
+    border-radius: 100px;
+    width: fit-content;
+    padding: 8px 16px;
+    display: block;
+    font: 700 16px/150% var(--font-secondary);
+    text-transform: uppercase;
 }

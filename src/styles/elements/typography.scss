@@ -22,14 +22,32 @@ h1 {
 h2 {
     font-size: var(--font-size-h2);
     font-family: var(--font-secondary);
+    font-weight: 600;
+    margin-bottom: var(--spacing-xxl);
+    span {
+        font-weight: 300;
+    }
+    h2 {
+        @media (width <= $breakpoint-sm) {
+            margin-bottom: var(--spacing-lg);
+        }
+    }
 }
 
 h3 {
     font-size: var(--font-size-h3);
+    font-family: var(--font-secondary);
+    font-weight: 600;
 }
 
 h4 {
     font-size: var(--font-size-h4);
+    letter-spacing: -1px;
+    font-weight: 600;
+    span {
+        font-weight: 300;
+        opacity: 0.55;
+    }
 }
 
 h5 {
@@ -38,4 +56,17 @@ h5 {
 
 h6 {
     font-size: var(--font-size-h6);
+}
+
+p {
+    font-size: var(--font-size-p);
+    font-family: var(--font-secondary);
+    font-weight: 300;
+    margin: 30px 0;
+    span {
+        font-weight: 600;
+    }
+    &.tag {
+        font-size: var(--font-size-tag);
+    }
 }

@@ -1,0 +1,28 @@
+.footer {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.footer p {
+    font-size: var(--font-size-p-footer);
+    font-family: var(--font-secondary);
+    font-weight: 300;
+    span {
+        font-weight: 700;
+    }
+}
+
+.footer .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+
+.footer a {
+    color: var(--color-white);
+    opacity: 0.55;
+    &:hover {
+        opacity: 1;
+    }
+}

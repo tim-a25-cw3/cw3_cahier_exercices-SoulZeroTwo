@@ -22,4 +22,10 @@ a {
     display: block;
     font: 700 16px/150% var(--font-secondary);
     text-transform: uppercase;
+    &:hover {
+        background-color: rgba(0, 0, 0, 0);
+        border: solid 1px var(--color-primary);
+        padding: 7px 15px;
+        text-decoration: none;
+    }
 }
